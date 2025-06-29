@@ -36,10 +36,10 @@ This project showcases low-level graphics, keyboard input handling, random numbe
    The game will launch and run smoothly!
 
 ## 🛠 Tech Stack
-/Language: x86 Assembly (TASM)
-/Graphics Mode: Mode 13h (320x200, 256 colors)
-/Tools: Turbo Assembler (TASM), Turbo Linker (TLINK)
-/Emulation: DOSBox
+- Language: x86 Assembly (TASM)
+- Graphics Mode: Mode 13h (320x200, 256 colors)
+- Tools: Turbo Assembler (TASM), Turbo Linker (TLINK)
+- Emulation: DOSBox
 
 
 ## 📁 File Structure
