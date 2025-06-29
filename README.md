@@ -29,6 +29,7 @@ This project showcases low-level graphics, keyboard input handling, random numbe
    - `TLINK.EXE`
    - `RTM.EXE`
    - `DPMI16BI.OVL`
+   - `run.bat`
 4. In DOSBox, navigate to the project folder.
 5. Run the game:
   **run snake**
