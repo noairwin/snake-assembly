@@ -31,21 +31,29 @@ This project showcases low-level graphics, keyboard input handling, random numbe
    - `DPMI16BI.OVL`
 4. In DOSBox, navigate to the project folder.
 5. Run the game:
-   run snake
+  **run snake**
 
    ✅ The game will launch and run smoothly!
 
+## 🛠 Tech Stack
+Language: x86 Assembly (TASM)
+Graphics Mode: Mode 13h (320x200, 256 colors)
+Tools: Turbo Assembler (TASM), Turbo Linker (TLINK)
+Emulation: DOSBox
 
-📁 File Structure
-/snake.asm         - Main game code
-/colors.asm        - Color selection screen
-/sound.asm         - Sound effects
-/menu.asm          - Start and Game Over screens
-/leaderboard.asm   - File handling for high scores
-/utils.asm         - Helper macros and utilities
-⚠️ Disclaimer
+
+## 📁 File Structure
+- `snake.asm`         - Main game code
+- `start.asm`         - first screen
+- `game.asm`          - the actual game 
+- `losescr.asm`       - lose screen
+- `dataseg.asm`       - all the vars (data segment)
+- `procs.asm`         - all the procedures
+- `macros.asm`        - all the macros
+- `run.bat`           - running file
+## ⚠️ Disclaimer
 This game runs in 16-bit mode and is not compatible with modern operating systems directly.
 Use DOSBox or a 16-bit DOS emulator to run it.
 
-✍️ Author
-Noa Rotbart
+## ✍️ Author
+created by **noairwin**
