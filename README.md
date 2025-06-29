@@ -33,7 +33,7 @@ This project showcases low-level graphics, keyboard input handling, random numbe
 5. Run the game:
   **run snake**
 
-   ✅ The game will launch and run smoothly!
+   The game will launch and run smoothly!
 
 ## 🛠 Tech Stack
 Language: x86 Assembly (TASM)
